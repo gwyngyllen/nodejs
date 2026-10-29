@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap');
 @import 'tailwindcss';
 
 :root { --bg:#071019; --panel:#0d1823; --panel-2:#101f2d; --line:#1e3445; --muted:#8ba1b2; --text:#e8f1f5; --cyan:#50d5e8; --green:#72dc9a; --amber:#f1bf68; }
 * { box-sizing:border-box; }
-html, body { margin:0; min-height:100%; background:var(--bg); color:var(--text); font-family:Manrope, 'Noto Sans SC', sans-serif; }
+html, body { margin:0; min-height:100%; background:var(--bg); color:var(--text); font-family:Manrope, sans-serif; }
 body { background-image: radial-gradient(circle at 76% -10%, rgba(46, 127, 152, .16), transparent 31rem), linear-gradient(135deg, #071019, #09141e 50%, #071019); }
 button, input, select { font:inherit; }
 button { cursor:pointer; }
